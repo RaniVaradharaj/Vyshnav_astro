@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="container">
+    <div className="container p-3">
       Vyshnav Astronumerological Care was established in 2004 at Hosur,
       Tamilnadu. You are heartily invited to the world of Vyshnav Astrology, the
       celestial arena of stars and planets. The position of the stars and
