@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import "./App.css";
+
+// import galaxy from "C:\Users\vishn\OneDrive\Documents\FULLSTACK DEVELOPMENT - RANI\Vyshnav_astro\vyshnav_web\src\images\galaxy.jpg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>VYSHNAV-ASTRO-NUMEROLGICAL CARE</h1>
+      <div className="gallery">
+        {/* <img src={img1} alt="images" /> */}
+        <img src="img2.jpeg" alt="images" />
+        <img src="img3.jpeg" alt="images" />
+        <img src="img4.jpeg" alt="images" />
+        <img src="img5.jpeg" alt="images" />
+      </div>
     </div>
   );
 }
