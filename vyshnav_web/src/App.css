@@ -67,8 +67,9 @@
   word-spacing: 2px;
   line-height: 2rem;
   justify-content: center;
-  padding-top: 2rem !important;
+  padding-top: 2.5rem !important;
   max-width: max-content;
+  page-break-after:auto;
 }
 
 .whyns{
@@ -83,14 +84,19 @@
 
 .head{
   text-align: center;
-  color: darkviolet;
+  color: rgb(113, 2, 160);
+  scroll-behavior:smooth;
+  text-decoration: underline;
+  text-shadow: #282c34;
+  text-size-adjust: 10rem !important;
 }
 
-.about_color{
+/* .about_color{
   color: rgb(2, 2, 116);
-}
+} */
 
 .vysh_color,.chit_color{
-  color: rgb(210, 210, 3);
+  /* color: rgb(210, 210, 3); */
+  color: rgb(2, 2, 116);
 }
 

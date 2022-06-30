@@ -10,9 +10,9 @@ function Why_NS() {
             Astrological services up to the customer specific requirements.
           </li>
           <li>
-            Experience of about more than 10000 customers for
-            Numerology,Astrology,Prasanna Jyothism, Marriage match making & Name
-            selection for Industries.
+            Experience of about more than 10000 customers for Numerology,
+            Astrology, Prasanna Jyothism, Marriage match making & Name selection
+            for Industries.
           </li>
           <li>
             Mrs.N.S. CHITRA, B.Sc.,B.Ed.,(Maths), M.A., M.Phil.,(Astrology), has

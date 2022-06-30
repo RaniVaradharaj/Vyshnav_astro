@@ -3,6 +3,7 @@
 import "./App.css";
 import About from "./components/about";
 import Why_NS from "./components/why_NS";
+import Marquee from "react-fast-marquee";
 
 // import moon from ".images/moon.jpg";
 var galaxy = require("../src/");
@@ -10,8 +11,15 @@ var galaxy = require("../src/");
 function App() {
   return (
     <div className="App">
+      <div className="welcome">
+        <Marquee>
+          <h5>Welcome to</h5>
+        </Marquee>
+      </div>
       <div className="container head">
-        <h1>VYSHNAV-ASTRO-NUMEROLGICAL CARE</h1>
+        <Marquee>
+          <h1>VYSHNAV ASTRONUMERLOGICAL CARE</h1>
+        </Marquee>
       </div>
       <div className="gallery">
         <img
