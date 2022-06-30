@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   padding: 1rem;
 }
 
@@ -70,3 +70,27 @@
   padding-top: 2rem !important;
   max-width: max-content;
 }
+
+.whyns{
+  word-spacing: 2px;
+  line-height: 2rem;
+  justify-content:flex-start;
+}
+
+.nsc{
+  color: rgb(133, 15, 133);
+}
+
+.head{
+  text-align: center;
+  color: darkviolet;
+}
+
+.about_color{
+  color: rgb(2, 2, 116);
+}
+
+.vysh_color,.chit_color{
+  color: rgb(210, 210, 3);
+}
+

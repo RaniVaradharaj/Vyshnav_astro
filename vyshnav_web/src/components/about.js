@@ -4,22 +4,31 @@ const About = () => {
   return (
     <>
       <div className="container p-3 about">
-        <i>
-          <h3>
-            Vyshnav Astronumerological Care was established in 2004 at Hosur,
-            Tamilnadu.
-          </h3>
-        </i>
+        <div className="container">
+          <div className="about_color">
+            <h2>ABOUT US:</h2>
+          </div>
+          <div className="vysh_color">
+            <i>
+              <h3>
+                Vyshnav Astronumerological Care was established in 2004 at
+                Hosur, Tamilnadu.
+              </h3>
+            </i>
+          </div>
+        </div>
         You are heartily invited to the world of Vyshnav Astrology, the
         celestial arena of stars and planets. The position of the stars and
         planets impact your well being on physical, financial, mental and other
         aspects. So, the proficient and one of the best astrologers in
         Tamilnadu,
-        <i>
-          <h4>
-            Mrs.N.S. CHITRA, B.Sc.,B.Ed.,(Maths), M.A., M.Phil.,(Astrology)
-          </h4>
-        </i>{" "}
+        <div className="container chit_color">
+          <i>
+            <h4>
+              Mrs.N.S. CHITRA, B.Sc.,B.Ed.,(Maths), M.A., M.Phil.,(Astrology)
+            </h4>
+          </i>
+        </div>
         can help you out to know about the movement of your planets. The
         prediction and solutions provided by this expert will assist you to know
         your upcoming good and bad times, and her advices will help you to find
