@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import boo
+// import bootstrap from "../node_modules/bootstrap";
 import "./App.css";
 import About from "./components/about";
 

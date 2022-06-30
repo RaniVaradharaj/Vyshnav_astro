@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 1rem;
 }
 
 .App-logo {
@@ -39,7 +40,7 @@
 
 .gallery{
   max-width: 85vw;
-  height: 15vmin;
+  height: 25vmin;
   display:flex;
   gap: 5px;
   margin: auto;
@@ -54,13 +55,18 @@
   cursor: pointer;
   border-radius: 10px;
   transition: all 0.3s;
+  padding-top: 1.5rem !important;
 }
 
 .gallery img:hover{
   flex: 4;
 }
 
-.container{
-  /* max-width: fit-content; */
+.about{
+  /* letter-spacing: 1px; */
+  word-spacing: 2px;
+  line-height: 2rem;
   justify-content: center;
+  padding-top: 2rem !important;
+  max-width: max-content;
 }
