@@ -11,8 +11,8 @@ const About = () => {
           <div className="vysh_color">
             <i>
               <h3>
-                Vyshnav Astronumerological Care was established in 2004 at
-                Hosur, Tamilnadu.
+                <span className="first-letter">V</span>yshnav Astronumerological
+                Care was established in 2004 at Hosur, Tamilnadu.
               </h3>
             </i>
           </div>
