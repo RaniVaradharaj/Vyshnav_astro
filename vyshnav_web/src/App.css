@@ -39,12 +39,14 @@
 
 .gallery{
   max-width: 85vw;
-  height: 6vmin;
+  height: 15vmin;
   display:flex;
   gap: 5px;
+  margin: auto;
 }
 
 .gallery img{
+  text-align: center  ;
   height: 100%;
   flex: 1;
   object-fit: cover;
@@ -56,4 +58,9 @@
 
 .gallery img:hover{
   flex: 4;
+}
+
+.container{
+  /* max-width: fit-content; */
+  justify-content: center;
 }
