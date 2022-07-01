@@ -4,6 +4,7 @@ import "./App.css";
 import About from "./components/about";
 import Why_NS from "./components/why_NS";
 import Marquee from "react-fast-marquee";
+import Contact from "./components/contact";
 
 // import moon from ".images/moon.jpg";
 var galaxy = require("../src/");
@@ -50,6 +51,7 @@ function App() {
       </div>
       <About />
       <Why_NS />
+      <Contact />
     </div>
   );
 }

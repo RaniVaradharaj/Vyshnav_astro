@@ -102,6 +102,7 @@
   color: rgb(2, 2, 116);
 }
 
+
 .welcome{
   text-decoration: solid;
 }
@@ -123,4 +124,20 @@
 .buttondiv{
   text-align: center;
   padding: 1rem;
+}
+
+.contact{
+  font-size:xx-large !important;
+  word-spacing: 2.5px;
+  line-height: 2.2rem;
+  font-weight: 500;
+  padding: 1rem;
+  color: rgb(1, 1, 85);
+}
+
+.address{
+  word-spacing: 2.5px;
+  line-height: 2.2rem;
+  margin-left: 4rem !important;
+  font-weight: 400;
 }

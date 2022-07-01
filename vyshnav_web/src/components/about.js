@@ -41,11 +41,11 @@ const About = () => {
         <p>
           Mrs.N.S. CHITRA, B.Sc.,B.Ed.,(Maths), M.A., M.Phil.,(Astrology), is
           specialist in predicting future and foretelling horoscope. She is
-          expert in fields like Numerology, Astrology &amp; Prasanna Jyothism,
+          expert in fields like Numerology, Astrology & Prasanna Jyothism,
           Marriage match making. Excelling in these fields and is well known for
           her great capabilities of solving various problems of people. She is
           well acclaimed for her prowess of Numerology, Astrology, Prasanna
-          Jyothism &amp; Marriage match making.
+          Jyothism & Marriage match making.
         </p>
         <p>
           We sincerely thanks to Dr.Girijamohan Guruji and
