@@ -110,7 +110,7 @@
 
 .button{
   font-size: large;
-  background-color: rgb(7, 7, 130);
+  background-color: rgb(61, 171, 59);
   color: #fff;
   padding: 1rem;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -118,7 +118,8 @@
 }
 
 .button:hover{
-  zoom: 100%;
+  zoom: 120%;
+  background-color: rgb(206, 241, 134);
 }
 
 .buttondiv{
@@ -133,6 +134,8 @@
   font-weight: 500;
   padding: 1rem;
   color: rgb(1, 1, 85);
+  text-decoration: underline;
+  margin-top: 1.5rem;
 }
 
 .address{
@@ -141,3 +144,16 @@
   margin-left: 4rem !important;
   font-weight: 400;
 }
+
+.charges{
+  text-decoration: underline;
+  padding-bottom: 0.5rem;
+  color: rgb(64, 7, 7);
+}
+
+.numerology_component,.astrology_component{
+  padding: 2rem;
+  line-height: 2rem;
+  word-spacing: 0.1rem;
+}
+

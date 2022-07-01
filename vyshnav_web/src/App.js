@@ -5,6 +5,9 @@ import About from "./components/about";
 import Why_NS from "./components/why_NS";
 import Marquee from "react-fast-marquee";
 import Contact from "./components/contact";
+import Numerlogy_work from "./components/numerlogy_work";
+import Astrology_work from "./components/astrology_work";
+import Prasanna from "./components/prasanna";
 
 // import moon from ".images/moon.jpg";
 var galaxy = require("../src/");
@@ -51,6 +54,9 @@ function App() {
       </div>
       <About />
       <Why_NS />
+      <Numerlogy_work />
+      <Astrology_work />
+      <Prasanna />
       <Contact />
     </div>
   );
