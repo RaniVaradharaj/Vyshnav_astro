@@ -10,7 +10,7 @@ function Why_NS() {
             Astrological services up to the customer specific requirements.
           </li>
           <li>
-            Experience of about more than 10000 customers for Numerology,
+            Experience of about more than 12000 customers for Numerology,
             Astrology, Prasanna Jyothism, Marriage match making & Name selection
             for Industries.
           </li>

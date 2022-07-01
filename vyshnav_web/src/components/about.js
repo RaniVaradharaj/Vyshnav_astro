@@ -4,25 +4,25 @@ const About = () => {
   return (
     <>
       <div className="container p-3 about">
-        <div className="container">
-          <div className="about_color">
-            <h2>ABOUT US:</h2>
-          </div>
-          <div className="vysh_color">
-            <i>
-              <h3>
-                <span className="first-letter">V</span>yshnav Astronumerological
-                Care was established in 2004 at Hosur, Tamilnadu.
-              </h3>
-            </i>
-          </div>
+        {/* <div className="container"> */}
+        <div className="about_color">
+          <h2>ABOUT US:</h2>
         </div>
+        <div className="vysh_color">
+          <i>
+            <h3>
+              <span className="first-letter">V</span>yshnav Astronumerological
+              Care was established in 2004 at Hosur, Tamilnadu, India.
+            </h3>
+          </i>
+        </div>
+        {/* </div> */}
         You are heartily invited to the world of Vyshnav Astrology, the
         celestial arena of stars and planets. The position of the stars and
         planets impact your well being on physical, financial, mental and other
         aspects. So, the proficient and one of the best astrologers in
         Tamilnadu,
-        <div className="container chit_color">
+        <div className="chit_color">
           <i>
             <h4>
               Mrs.N.S. CHITRA, B.Sc.,B.Ed.,(Maths), M.A., M.Phil.,(Astrology)

@@ -1,6 +1,7 @@
 .App {
   /* text-align: center; */
   padding: 1rem;
+  font-size: large !important;
 }
 
 .App-logo {
@@ -157,3 +158,6 @@
   word-spacing: 0.1rem;
 }
 
+.language{
+  font-size:medium;
+}

@@ -26,6 +26,7 @@ function App() {
 
       <div className="buttondiv">
         <button className="button">
+          <div className="language">Languages Only Tamil/English</div>
           <b>BOOK NOW FOR APPOINTMENT</b>
         </button>
       </div>
