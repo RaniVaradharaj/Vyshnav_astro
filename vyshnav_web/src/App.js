@@ -8,6 +8,7 @@ import Contact from "./components/contact";
 import Numerlogy_work from "./components/numerlogy_work";
 import Astrology_work from "./components/astrology_work";
 import Prasanna from "./components/prasanna";
+import Appointment_form from "./components/appointment_form";
 
 // import moon from ".images/moon.jpg";
 var galaxy = require("../src/");
@@ -21,7 +22,7 @@ function App() {
         {/* </Marquee> */}
       </div>
       <div className="container head">
-        <Marquee>VYSHNAV ASTRONUMERLOGICAL CARE</Marquee>
+        <Marquee>VYSHNAV ASTRONUMEROLOGICAL CARE</Marquee>
       </div>
 
       <div className="buttondiv">
@@ -59,6 +60,7 @@ function App() {
       <Astrology_work />
       <Prasanna />
       <Contact />
+      <Appointment_form />
     </div>
   );
 }
