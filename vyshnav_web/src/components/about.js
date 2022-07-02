@@ -29,7 +29,7 @@ const About = () => {
             </h4>
           </i>
         </div>
-        can help you out to know about the movement of your planets. The
+        Can help you out to know about the movement of your planets. The
         prediction and solutions provided by this expert will assist you to know
         your upcoming good and bad times, and her advices will help you to find
         bright way by discarding the clouds of darkness. You can know the weekly
