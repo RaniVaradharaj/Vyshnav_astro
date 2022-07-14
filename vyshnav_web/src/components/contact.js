@@ -13,6 +13,7 @@ const Contact = () => {
         <br /> Phone: 90472 27150, 94883 39931
         <br /> Email: <a href="chitraknp@gmail.com">chitraknp@gmail.com</a>,
         <a href="snschitra@gmail.com">snschitra@gmail.com</a>
+        <br />
       </div>
     </>
   );

@@ -1,4 +1,6 @@
-body {
+
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +12,292 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.App {
+  /* text-align: center; */
+  padding: 1rem;
+  font-size: large !important;
 }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gallery{
+  max-width: 85vw;
+  height: 25vmin;
+  display:flex;
+  gap: 5px;
+  margin: auto;
+}
+
+.gallery img{
+  text-align: center  ;
+  height: 100%;
+  flex: 1;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s;
+  padding-top: 1.5rem !important;
+}
+
+.gallery img:hover{
+  flex: 4;
+}
+
+.about{
+  /* letter-spacing: 1px; */
+  word-spacing: 2px;
+  line-height: 2rem;
+  justify-content: center;
+  padding-top: 2.5rem !important;
+  max-width: max-content;
+  page-break-after:auto;
+}
+
+.first-letter{
+  font-size: 2.3rem;
+}
+
+.whyns{
+  word-spacing: 2.5px;
+  line-height: 2.2rem;
+  justify-content:flex-start;
+}
+
+.nsc{
+  color: rgb(133, 15, 133);
+}
+
+.head{
+  text-align: center;
+  color: rgb(113, 2, 160);
+  scroll-behavior:inherit;
+  text-decoration: underline;
+  /* font-size:xx-large !important; */
+  font-size: 3.3rem !important;
+  padding: 0.8rem;
+  font-weight: bolder !important;
+}
+
+
+.vysh_color,.chit_color{
+  color: rgb(2, 2, 116);
+}
+
+
+.welcome{
+  text-decoration: solid;
+}
+
+
+.button{
+  font-size: large;
+  background-color: rgb(61, 171, 59);
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 0.5rem;
+}
+
+.button:hover{
+  zoom: 120%;
+  background-color: rgb(206, 241, 134);
+}
+
+.buttondiv{
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact{
+  font-size:xx-large !important;
+  word-spacing: 2.5px;
+  line-height: 2.2rem;
+  font-weight: 500;
+  padding: 1rem;
+  color: rgb(1, 1, 85);
+  text-decoration: underline;
+  margin-top: 1.5rem;
+}
+
+.address{
+  word-spacing: 2.5px;
+  line-height: 2.2rem;
+  margin-left: 4rem !important;
+  font-weight: 400;
+  padding-bottom: 3rem;
+}
+
+.charges{
+  text-decoration: underline;
+  padding-bottom: 0.5rem;
+  color: rgb(64, 7, 7);
+}
+
+.numerology_component,.astrology_component{
+  padding: 2rem;
+  line-height: 2rem;
+  word-spacing: 0.1rem;
+}
+
+.language{
+  font-size:medium;
+}
+
+.form{
+  max-width: 100%;
+  max-height: fit-content;
+  background-color: rgb(7, 8, 77);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+form{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  max-width: 65rem;
+  border-radius: 0.5rem;
+}
+
+form h3, form h4{
+  color: rgb(25, 7, 115);
+  font-weight: 800;
+  margin-bottom: 2rem;
+
+}
+
+form input{
+  border: 3;
+  border: #282c34;
+  margin: 4px 0;
+  padding: 0.2rem;
+  background-color: #f5f5f5;
+  font-size: large;
+  width: 35rem;
+}
+
+form label{
+  margin: 4px 0;
+  padding: 0.2rem;
+}
+
+.row2{
+  line-height: 2.6rem;
+}
+
+form button{
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  background-color:rgb(24, 153, 110);
+  font-size:larger;
+  border: rgb(198, 71, 71);
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 900 !important;
+  letter-spacing: 0.1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form button:hover{
+  zoom: 115%;
+  background-color: rgb(208, 242, 158);
+  border: #282c34;
+  border: 3rem;
+}
+
+
+#tamil, #english{
+  padding: 0.3rem;
+}
+
+
+
+
+
+
+
+/* @media only screen and (max-width:1024px) and (min-width:760) {
+  .form{
+    max-width: 100rem;
+  }
+  form input{
+    max-width: 25rem;
+  }
+}
+
+@media only screen and (min-width:768px){
+  form input{
+    max-width: 25rem;
+  }
+  .form{
+    max-width: 25rem;
+  }
+}
+
+@media only screen and (min-width:1024px){
+  form input{
+    max-width: 33rem;
+  }
+}
+
+@media only screen and (min-width:425px){
+  form input{
+    max-width:13.5rem;
+  }
+}
+
+@media only screen and (min-width:375px){
+  form input{
+    max-width:10rem;
+  }
+}
+
+@media only screen and (min-width:320px){
+  form input{
+    max-width: 9.3rem;
+  }
+} */
+
+
+/*  */

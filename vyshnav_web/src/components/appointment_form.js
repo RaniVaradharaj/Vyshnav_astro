@@ -10,7 +10,7 @@ const Appointment_form = () => {
           <h4>APPOINTMENT FORM</h4>
 
           <div className="row formrow">
-            <div className="col-5 row1">
+            <div className="col-3 row1">
               <label id="name">Name</label>
               <br />
               <label id="phone">Mobile</label>
@@ -27,6 +27,10 @@ const Appointment_form = () => {
               <br />
               <label id="country">Country</label>
               <br />
+            </div>
+
+            <div className="col-1 row2">
+              :<br />:<br />:<br />:<br />:<br />:<br />:<br />:<br />
             </div>
 
             <div className="col-5 row3">
@@ -75,7 +79,9 @@ const Appointment_form = () => {
             </div>
           </div>
 
-          <button type="submit">BOOK</button>
+          <button className="p-3" type="submit">
+            BOOK
+          </button>
         </form>
       </div>
     </>
